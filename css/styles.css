@@ -119,6 +119,16 @@ button {
   font-size: var(--font-size-medium);
 }
 
+.btn {
+  cursor:pointer;
+  transition-duration: .25s;
+}
+
+.btn:hover {
+  background: rgb(134, 134, 134);
+  color: white;
+}
+
 /* Overlay */
 
 #overlay {
